@@ -8,7 +8,7 @@ We're going to put together a web-based blog, always building on top of what we 
 
 Because this is a project, it does not belong inside the main course repository (the one in which you originally received this file). It should be separate.
 
-We are going to begin by building a command-line tool that takes a title for the blog entry as well as some textual content, adds a timestamp, and appends this to a plain-text file.
+#We are going to begin by building a command-line tool that takes a title for the blog entry as well as some textual content, adds a timestamp, and appends this to a plain-text file.
 
 We have written tests for two-thirds of this to help you along.
 

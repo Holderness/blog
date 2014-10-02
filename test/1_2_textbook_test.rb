@@ -28,10 +28,13 @@ class TextbookTest < Minitest::Test
 
   def test_can_add_a_page
     expected_data = page_data
+
     page = Page.new(expected_data)
 
     textbook = Textbook.new(file_as_storage)
+
     textbook.insert(page)
+
     expected = "Header: #{expected_data["header"]}\nTime: #{expected_data["timestamp"]}\nArticle: #{expected_data["article"]}"
     actual = textbook.to_s
     assert_equal(expected, actual)
